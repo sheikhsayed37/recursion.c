@@ -12,7 +12,7 @@ mellow();
 void hellow()
 {
 printf("HELLOW\n");
-hellow();
+gellow();
 }
 
 int main()
