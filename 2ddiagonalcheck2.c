@@ -19,7 +19,7 @@ int main()
        {
         for(int j=0;j<c;j++)
         {
-            if(i==j)
+            if(i+j!=r-1)  //secondary diagonal check
             {
                 // we are on diagonal
             }
