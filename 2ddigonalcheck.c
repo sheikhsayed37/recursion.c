@@ -44,6 +44,6 @@ int main()
 }
 else
     {
-        printf("this is a diagonal matrix");
+        printf("this is a not  diagonal matrix");
     }
 }

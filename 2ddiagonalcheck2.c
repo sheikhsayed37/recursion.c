@@ -11,7 +11,9 @@ int main()
             scanf("%d",&array[i][j]);
         }
     }
+    
  int flag=0;
+
     if(r==c)
     {
         
@@ -19,7 +21,7 @@ int main()
        {
         for(int j=0;j<c;j++)
         {
-            if(i+j!=r-1)  //secondary diagonal check
+            if(i+j != r-1)  //secondary diagonal check
             {
                 // we are on diagonal
             }
@@ -38,13 +40,13 @@ int main()
        }
        if(flag==0)
        {
-        printf("this is a diagonal matrix");
+        printf("this is a diagonal matrix\n");
        }   
 
 }
 else
     {
-        printf("this is a diagonal matrix");
+        printf("this is a not diagonal matrix\n");
     }
 }
 
