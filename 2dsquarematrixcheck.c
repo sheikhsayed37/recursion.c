@@ -11,6 +11,7 @@ int main()
             scanf("%d",&array[i][j]);
         }
     }
+    
    if(r==c)
    {
     printf("THIS IS A  square MATRIX");

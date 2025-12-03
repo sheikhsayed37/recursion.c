@@ -11,6 +11,7 @@ int main()
             scanf("%d",&array[i][j]);
         }
     }
+    
  int flag=0;
     if(r==c)
     {
